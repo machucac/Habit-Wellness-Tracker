@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #e8f5ef, #f7fafc);
+  color: #1f2937;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Header */
+
+.app-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.app-header h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+  color: #14532d;
+}
+
+.app-header p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.app-header span {
+  display: inline-block;
+  margin-top: 8px;
+  color: #16a34a;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  gap: 12px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 14px 16px;
+  border: 2px solid #d1d5db;
+  border-radius: 12px;
+  background-color: #f9fafb;
+  color: #111827;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #16a34a;
+  background-color: white;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+/* Buttons */
+
+button {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: #16a34a;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #15803d;
+}
+
+.reset-btn {
+  background-color: #64748b;
+}
+
+.reset-btn:hover {
+  background-color: #475569;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Stats */
+
+.stats-section {
+  margin-bottom: 35px;
+}
+
+.stats-section h2 {
+  margin-bottom: 16px;
+  color: #14532d;
+  font-size: 24px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-left: 6px solid #16a34a;
+}
+
+.stat-card span {
+  font-size: 28px;
+}
+
+.stat-card h3 {
+  margin: 12px 0 6px;
+  font-size: 34px;
+  color: #111827;
+}
+
+.stat-card p {
+  margin: 0;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Progress Section */
+
+.progress-card {
+  background-color: white;
+  padding: 12px;
+  border-radius: 20px;
+  margin-bottom: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-header h3 {
+  margin: 0;
+  color: #14532d;
+}
+
+.progress-header span {
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 999px;
+  margin: 18px 0 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #16a34a;
+  border-radius: 999px;
+}
+
+.progress-card p {
+  margin: 0;
+  color: #6b7280;
+}
+
+/* Habits */
+
+.habit-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.habit-card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.habit-card h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 22px;
+  color: #14532d;
+}
+
+.habit-card p {
+  margin: 8px 0;
+  color: #4b5563;
+}
+
+.habit-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 700px) {
+
+  form {
+    flex-direction: column;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .habit-list {
+    grid-template-columns: 1fr;
+  }
+
+}
