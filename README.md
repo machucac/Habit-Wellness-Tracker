@@ -1,6 +1,6 @@
 # Habit & Wellness Tracker
 
-![Application Screenshot](./src/asset/ReadMeScreenshot.jpg)
+![Application Screenshot](./src/assets/ReadMeScreenshot.jpg)
 
 ## Project Summary
 
