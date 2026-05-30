@@ -64,6 +64,15 @@ npm run dev
 
 5. Open the local host URL provided by Vite.
 
+
+## How to Run
+
+Start the development server:
+
+npm run dev
+
+Open the local host URL provided by Vite in your browser.
+
 ---
 
 ## Dependencies
@@ -75,11 +84,18 @@ npm install
 npm install uuid
 ```
 
+## Deployment
+
+This project was developed and tested locally using Vite.
+
+
+
 ---
 ## AI Screenshots
 Screen shot 1: Reset Streak Debugging
 
 ![Reset Streak Debugging](src/assets/screenshot_resetStreak_error.JPG)
+
 AI helped diagnose and resolve a resetStreak is not defined error that caused the application to render a blank page. The issue was traced to a missing function definition in App.jsx.
 
 Screen shot 2: Habit Creation/UUID Debugging
@@ -95,10 +111,6 @@ AI assisted with troubleshooting project setup issues during the initial stages 
 
 
 
-
-
-
-
 ## AI Prompting and Learning
 
 AI was used throughout development to assist with:
@@ -106,7 +118,6 @@ AI was used throughout development to assist with:
 - Project planning
 - React component organization
 - Debugging application errors
-- Styling and layout improvements
 - Feature implementation including progress tracking and localStorage persistence
 
 All code was reviewed, tested, and implemented as part of the development process.
@@ -130,15 +141,9 @@ All code was reviewed, tested, and implemented as part of the development proces
 * Building the statistics dashboard.
 * Creating the progress bar.
 
-### Feature Development
-
-* Implementing streak tracking.
-* Implementing progress calculations.
-* Adding localStorage persistence.
-
 ---
 
-## Testing
+## Testing Notes
 
 The following features were manually tested:
 
@@ -152,6 +157,8 @@ The following features were manually tested:
 * Progress bar updates
 * LocalStorage persistence after page refresh
 
+Testing was performed through the application's user interface to verify that state updates, calculations, and displayed information behaved as expected.
+
 ---
 
 ## Future Improvements
@@ -163,8 +170,6 @@ Possible future enhancements include:
 * Dark mode
 * Additional statistics
 * Calendar-based habit tracking
-* User accounts and cloud storage
-
 ---
 
 ## Author
