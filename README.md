@@ -78,6 +78,7 @@ npm install uuid
 ---
 ## AI Screenshots
 Screen shot 1: Reset Streak Debugging
+
 ![Reset Streak Debugging](src/assets/screenshot_resetStreak_error.jpg)
 AI helped diagnose and resolve a resetStreak is not defined error that caused the application to render a blank page. The issue was traced to a missing function definition in App.jsx.
 
@@ -87,7 +88,9 @@ Screen shot 2: Habit Creation/UUID Debugging
 AI assisted with debugging habit creation by using console logs to verify form submissions and habit object creation. This process helped identify and resolve issues related to UUID generation and habit creation functionality.
 
 Screenshot 3: Project Setup and UUID Installation
+
 ![Project Setup and UUID Installation](src/assets/screenshot_installing_uuid1st.JPG)
+
 AI assisted with troubleshooting project setup issues during the initial stages of development. An error occurred because the UUID package was installed before the React Vite application was properly created, resulting in an incomplete project configuration. AI helped identify the correct installation order and guided the setup process so development could continue successfully.
 
 
