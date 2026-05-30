@@ -79,11 +79,11 @@ npm install uuid
 ## AI Screenshots
 Screen shot 1: Reset Streak Debugging
 
-![Reset Streak Debugging](src/assets/screenshot_resetStreak_error.jpg)
+![Reset Streak Debugging](src/assets/screenshot_resetStreak_error.JPG)
 AI helped diagnose and resolve a resetStreak is not defined error that caused the application to render a blank page. The issue was traced to a missing function definition in App.jsx.
 
 Screen shot 2: Habit Creation/UUID Debugging
-![Habit Creation Debugging](src/assets/debugUUID.jpg)
+![Habit Creation Debugging](src/assets/debugUUID.JPG)
 
 AI assisted with debugging habit creation by using console logs to verify form submissions and habit object creation. This process helped identify and resolve issues related to UUID generation and habit creation functionality.
 
