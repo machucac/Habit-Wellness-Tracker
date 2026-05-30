@@ -1,6 +1,6 @@
 # Habit & Wellness Tracker
 
-![Application Screenshot](./src/assets/ReadMeScreenshot.jpg)
+![Application Screenshot](src/assets/ReadMeScreenshot.JPG)
 
 ## Project Summary
 
@@ -66,18 +66,6 @@ npm run dev
 
 ---
 
-## Deployment
-
-This application can be deployed using services such as:
-
-* GitHub Pages
-* Netlify
-* Vercel
-
-If deployed, add the deployment link here.
-
----
-
 ## Dependencies
 
 Required packages:
@@ -88,10 +76,37 @@ npm install uuid
 ```
 
 ---
+## AI Screenshots
+Screen shot 1: Reset Streak Debugging
+![Reset Streak Debugging](src/assets/screenshot_resetStreak_error.jpg)
+AI helped diagnose and resolve a resetStreak is not defined error that caused the application to render a blank page. The issue was traced to a missing function definition in App.jsx.
 
-## AI Assistance
+Screen shot 2: Habit Creation/UUID Debugging
+![Habit Creation Debugging](src/assets/debugUUID.jpg)
+
+AI assisted with debugging habit creation by using console logs to verify form submissions and habit object creation. This process helped identify and resolve issues related to UUID generation and habit creation functionality.
+
+Screenshot 3: Project Setup and UUID Installation
+![Project Setup and UUID Installation](src/assets/screenshot_installing_uuid1st.JPG)
+AI assisted with troubleshooting project setup issues during the initial stages of development. An error occurred because the UUID package was installed before the React Vite application was properly created, resulting in an incomplete project configuration. AI helped identify the correct installation order and guided the setup process so development could continue successfully.
+
+
+
+
+
+
+
+## AI Prompting and Learning
 
 AI was used throughout development to assist with:
+
+- Project planning
+- React component organization
+- Debugging application errors
+- Styling and layout improvements
+- Feature implementation including progress tracking and localStorage persistence
+
+All code was reviewed, tested, and implemented as part of the development process.
 
 ### Planning
 
